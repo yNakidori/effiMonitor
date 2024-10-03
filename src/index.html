@@ -1,13 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Hello World!</title>
-    <link rel="stylesheet" href="index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hardware Info</title>
   </head>
   <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
+    <h1>Informações do Sistema</h1>
+    <button id="cpu-info-btn">Ver CPU Info</button>
+    <button id="mem-info-btn">Ver Memória Info</button>
+
+    <div id="output"></div>
+
     <script src="renderer.js"></script>
   </body>
 </html>
